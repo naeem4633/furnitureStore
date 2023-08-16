@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MovingImages from './MovingImages';
-
+import { ResetPage } from './ResetPage';
 
 const Body = () => {
 
   return (
     <>
+    <ResetPage />
     <MovingImages />
     <div className='flex flex-col items-center mt-20'>
         <div className='mb-8 text-2xl underline'>

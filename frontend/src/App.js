@@ -12,6 +12,7 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 import UnderDevelopment from './components/UnderDevelopment';
 import Register from './components/Register';
+import ErrorPage from './components/ErrorPage';
 
 export default function App() {
   const [furniture, setFurniture] = useState([]);
@@ -58,7 +59,7 @@ export default function App() {
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/under-development" element={<UnderDevelopment />} />
             <Route path="/registration" element={<Register />} />
-            {/* <Route path="/confirmOrder" element={<ConfirmOrder />} /> */}
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
         </div>
         <Footer />

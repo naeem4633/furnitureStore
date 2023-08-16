@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ResetPage } from './ResetPage';
 
 const Register = () => {
   const [focusedInput, setFocusedInput] = useState(null);
@@ -19,6 +20,7 @@ const Register = () => {
   return (
     <>
       <div className='w-full border border-gray-300 border-t-1 border-l-0 border-r-0 border-b-0 mb-12'>
+        <ResetPage/>
         <div className='mx-auto mt-8 w-3/4'>
           <p className='font-medium text-3xl pb-8 border border-gray-300 border-t-0 border-x-0 border-b-1 mb-8'>Registration</p>
           <div className='w-3/5 mr-8 flex flex-col text-left space-y-8 justify-start'>

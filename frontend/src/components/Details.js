@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useParams } from 'react-router-dom';
 import axios from "axios";
+import { ResetPage } from './ResetPage';
 
 const Details = ({ savedItems, onChange }) => {
     let { id } = useParams();
@@ -85,6 +86,7 @@ const Details = ({ savedItems, onChange }) => {
     <>
         <div className='bg-white w-full border border-gray-300 border-t-1 border-l-0 border-r-0 border-b-0'></div>
         <div className='w-3/4 mx-auto flex flex-col justify-between py-24'>
+            <ResetPage/>
             <div className='grid grid-cols-1 gap-4 justify-between w-full mx-auto items-center lg:grid-cols-2'>
                 <div className='w-full mr-8 drop-shadow-lg'>
                     <img src={`${furniture.image_path}`}></img>

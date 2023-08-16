@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { ResetPage } from './ResetPage';
 
 const Listing = ( {furniture} ) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -35,6 +36,7 @@ const Listing = ( {furniture} ) => {
   return (
     <>
     <div className='flex-flex-row justify-center'>
+        <ResetPage />
         <div className="bg-white dark:bg-gray-900 border border-gray-200 border-t-1 border-l-0 border-r-0 border-b-0">
             <div className="mx-auto w-full max-w-screen px-24 py-6 lg:py-8 flex flex-row justify-center">
                 <button className="flex flex-row justify-between mx-10">
