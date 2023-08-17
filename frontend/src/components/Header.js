@@ -62,7 +62,7 @@ const Header = ({furniture, savedItems, onChange}) => {
     <nav className='bg-white border border-gray-200 dark:bg-gray-900 flex justify-between p-2'>
       <Link to={'/'} class="flex items-center ml-6 md:ml-24">
             <img src="../static/images/sofa.png" class="h-8 mr-3" alt="..." /> 
-            <span class="self-center text-md md:text-2xl font-semibold whitespace-nowrap dark:text-white">IKEA Home</span>
+            <span class="self-center text-md md:text-2xl font-semibold whitespace-nowrap dark:text-white">Furniture Emporium</span>
       </Link>
       
       <div className="relative flex flex-col w-1/3">

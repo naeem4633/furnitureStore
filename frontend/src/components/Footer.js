@@ -9,7 +9,7 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/" class="">
-                  <span class="text-2xl font-semibold whitespace-nowrap dark:text-white">IKEA Home</span>
+                  <span class="text-2xl font-semibold whitespace-nowrap dark:text-white">Furniture Emporium</span>
               </a>
           </div>
           <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-2">
